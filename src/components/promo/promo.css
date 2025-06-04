@@ -1,0 +1,32 @@
+.promo {
+    background-image: url('./../../source/reservBgPic.png');
+    height: 357px;
+    margin-top: 200px;
+}
+
+.promo-wrapper {
+    background-color: #000000cc;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo__content {
+    display: flex;
+    gap: 330px;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo__hero {
+    color: var(--main-color);
+    font-size: 52px;
+}
+
+.promo__hero span {
+    color: #fff;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 24px;
+}

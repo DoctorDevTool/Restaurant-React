@@ -1,0 +1,22 @@
+.card-offers__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.card-offers__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-offers__name {
+    padding-left: 27px;
+}
+
+.card-offers__brakeline {
+    margin: 0 20px;
+    width: 210px;
+    border-bottom: 1px dashed var(--desc-color);
+}

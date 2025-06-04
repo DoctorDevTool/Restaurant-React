@@ -1,0 +1,34 @@
+.card-intro {
+    margin-top: 124px;
+}
+
+.card-intro__wrapper {
+    width: 349px;
+    height: 328px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    font-size: 26px;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.card-intro__img {
+    margin-top: 25px;
+}
+
+.card-intro__hero {
+    margin-bottom: 20px;
+}
+
+.card-intro__hero span {
+    color: var(--infoCard-color);
+}
+
+.card-intro__desc {
+    text-align: center;
+    color: var(--desc-color);
+}

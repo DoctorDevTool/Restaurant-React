@@ -1,0 +1,8 @@
+.sub-header {
+font-family: var(--main-font);
+    font-size: 54px;
+}
+
+.sub-header span {
+    color: var(--main-color)
+}

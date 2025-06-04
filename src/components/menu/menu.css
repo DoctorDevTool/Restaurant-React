@@ -1,0 +1,18 @@
+.menu {
+    margin-top: 152px;
+    text-align: center;
+    background-image: url('./../../source/bar.png');
+    height: 1034px;
+}
+
+.menu__hero {
+    padding-top: 98px;
+    font-size: 54px;
+    color: #fff;
+}
+
+.menu__cards {
+    margin-top: 140px;
+    display: flex;
+    gap: 30px;
+}

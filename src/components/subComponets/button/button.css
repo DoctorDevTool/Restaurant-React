@@ -1,0 +1,32 @@
+.button-wrapper {
+    position: relative;
+    width: 157px;
+    height: 47px;
+    padding: 14px 18px;
+    text-align: center;
+    background-color: var(--btn-color);
+    font-size: 14px;
+}
+
+.button-wrapper--second {
+    position: relative;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.button {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    color: #FFF;
+    font-family: var(--second-font);
+    font-weight: 700;
+}
