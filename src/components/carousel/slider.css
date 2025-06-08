@@ -1,5 +1,4 @@
 
-
 .slider {
     background-color: #E6E5E5;
 }
@@ -43,6 +42,8 @@
 
 .slider__dot-wrapper {
     display: flex;
+    position: absolute;
+    bottom: 0;
 }
 
 .slider__dots{
