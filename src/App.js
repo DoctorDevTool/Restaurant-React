@@ -4,7 +4,23 @@ import Header from './components/header/Header';
 import Main from './components/main/main';
 import Slider from './components/carousel/Slider';
 
+import { useEffect, useState } from 'react';
+
 function App() {
+    // const [slides, setInfo] = useState([]);
+
+    // useEffect(() => {
+    //     async function fetchData() {
+    //         const res = await fetch('/info.json');
+    //         const data = await res.json();
+    //         console.log('data',data);
+    //         setInfo(data);
+            
+    //     }
+    //     fetchData();
+    //     console.log('slides',slides);
+        
+    // }, []);
     const slides = [
         {
             url: 'http://localhost:3000/customer.png',
