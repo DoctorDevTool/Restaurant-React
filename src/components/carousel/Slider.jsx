@@ -15,8 +15,12 @@ const Slider = ({ slides }) => {
                     <div className='slider__text'>
                         {slides[currentIndex].text}
                     </div>
-                    <div className="slider__img-wrapper" >
-                        <div className="slider__img" style={{backgroundImage: `url(${slides[currentIndex].url})`}}></div>
+                    <div className='slider__img-wrapper'>
+                        <div
+                            className='slider__img'
+                            style={{
+                                backgroundImage: `url(${slides[currentIndex].url})`,
+                            }}></div>
                     </div>
                     <h3 className='slider__hero-title'>
                         {slides[currentIndex].title}
